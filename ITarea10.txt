@@ -1,0 +1,15 @@
+class Rectangulo {
+  int largo;
+  int ancho;
+
+  Rectangulo({required this.largo, required this.ancho});
+
+  int calcularArea() {
+    return largo * ancho;
+  }
+}
+
+void main() {
+  Rectangulo miRectangulo = Rectangulo(largo: 5, ancho: 3);
+  print('El area del rectangulo es: ${miRectangulo.calcularArea()}');
+}
