@@ -11,5 +11,5 @@ class Rectangulo {
 
 void main() {
   Rectangulo miRectangulo = Rectangulo(largo: 5, ancho: 3);
-  print('El area del rectangulo es: ${miRectangulo.calcularArea()}');
+  print('El área del rectángulo es: ${miRectangulo.calcularArea()}');
 }

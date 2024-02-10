@@ -1,10 +1,8 @@
 void main() {
   List<num> numeros = [5, 3, 9, 2, 7];
   
-  // Inicializamos la variable `min` con el primer elemento de la lista
   num min = numeros[0];
   
-  // Recorremos la lista desde el segundo elemento
   for (var i = 1; i < numeros.length; i++) {
     // Si el elemento actual es menor que el mínimo encontrado hasta ahora, actualizamos `min`
     if (numeros[i] < min) {
@@ -12,6 +10,5 @@ void main() {
     }
   }
   
-  // Imprimimos el número más pequeño encontrado
   print("El número más pequeño en la lista es: $min");
 }

@@ -1,9 +1,9 @@
 void main() {
-  int num = 22;
+  int num = 20;
 
   if (num % 2 == 0) {
-    print('$num es par');
+    print('$num es par.');
   } else {
-    print('$num es impar');
+    print('$num es impar.');
   }
 }
